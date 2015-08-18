@@ -36,6 +36,11 @@
 		68666C271B832C9000065D06 /* SZGetSingleDealResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C211B832C9000065D06 /* SZGetSingleDealResult.m */; };
 		68666C2A1B832CC100065D06 /* SZDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C291B832CC100065D06 /* SZDealTool.m */; };
 		68666C301B83312D00065D06 /* SZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C2F1B83312D00065D06 /* SZNavigationController.m */; };
+		68666D711B83385700065D06 /* SZDealsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D701B83385700065D06 /* SZDealsViewController.m */; };
+		68666D771B83388400065D06 /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D741B83388400065D06 /* AwesomeMenu.m */; };
+		68666D781B83388400065D06 /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D761B83388400065D06 /* AwesomeMenuItem.m */; };
+		68666D7D1B83393800065D06 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D7A1B83393800065D06 /* UIView+AutoLayout.m */; };
+		68666D7E1B83393800065D06 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D7C1B83393800065D06 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +115,16 @@
 		68666C291B832CC100065D06 /* SZDealTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDealTool.m; sourceTree = "<group>"; };
 		68666C2E1B83312D00065D06 /* SZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SZNavigationController.h; path = ../../../../../../SZNavigationController.h; sourceTree = "<group>"; };
 		68666C2F1B83312D00065D06 /* SZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SZNavigationController.m; path = ../../../../../../SZNavigationController.m; sourceTree = "<group>"; };
+		68666D6F1B83385700065D06 /* SZDealsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDealsViewController.h; sourceTree = "<group>"; };
+		68666D701B83385700065D06 /* SZDealsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDealsViewController.m; sourceTree = "<group>"; };
+		68666D731B83388400065D06 /* AwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenu.h; sourceTree = "<group>"; };
+		68666D741B83388400065D06 /* AwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenu.m; sourceTree = "<group>"; };
+		68666D751B83388400065D06 /* AwesomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
+		68666D761B83388400065D06 /* AwesomeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenuItem.m; sourceTree = "<group>"; };
+		68666D791B83393800065D06 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		68666D7A1B83393800065D06 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		68666D7B1B83393800065D06 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		68666D7C1B83393800065D06 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +205,7 @@
 		68666BD61B8323C600065D06 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				68666D6D1B83380200065D06 /* Deals */,
 				68666BD71B8323C600065D06 /* Main */,
 				68666BD81B8323C600065D06 /* Other */,
 			);
@@ -223,6 +239,10 @@
 		68666BD91B8323C600065D06 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				68666D791B83393800065D06 /* UIView+AutoLayout.h */,
+				68666D7A1B83393800065D06 /* UIView+AutoLayout.m */,
+				68666D7B1B83393800065D06 /* UIView+Extension.h */,
+				68666D7C1B83393800065D06 /* UIView+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -230,6 +250,7 @@
 		68666BDA1B8323C600065D06 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				68666D721B83388400065D06 /* AwesomeMenu */,
 				68666BF11B832AA500065D06 /* MJExtension */,
 				68666BE31B8324FF00065D06 /* dianpingapi */,
 			);
@@ -315,6 +336,34 @@
 				68666C211B832C9000065D06 /* SZGetSingleDealResult.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		68666D6D1B83380200065D06 /* Deals */ = {
+			isa = PBXGroup;
+			children = (
+				68666D6E1B83382300065D06 /* Controller */,
+			);
+			path = Deals;
+			sourceTree = "<group>";
+		};
+		68666D6E1B83382300065D06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68666D6F1B83385700065D06 /* SZDealsViewController.h */,
+				68666D701B83385700065D06 /* SZDealsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		68666D721B83388400065D06 /* AwesomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				68666D731B83388400065D06 /* AwesomeMenu.h */,
+				68666D741B83388400065D06 /* AwesomeMenu.m */,
+				68666D751B83388400065D06 /* AwesomeMenuItem.h */,
+				68666D761B83388400065D06 /* AwesomeMenuItem.m */,
+			);
+			path = AwesomeMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,7 +467,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68666D7E1B83393800065D06 /* UIView+Extension.m in Sources */,
 				68666C2A1B832CC100065D06 /* SZDealTool.m in Sources */,
+				68666D781B83388400065D06 /* AwesomeMenuItem.m in Sources */,
 				68666C121B832AA500065D06 /* NSObject+MJKeyValue.m in Sources */,
 				68666C0C1B832AA500065D06 /* MJIvar.m in Sources */,
 				68666BEA1B8324FF00065D06 /* DPRequest.m in Sources */,
@@ -437,7 +488,10 @@
 				68666C271B832C9000065D06 /* SZGetSingleDealResult.m in Sources */,
 				68666C221B832C9000065D06 /* SZBusiness.m in Sources */,
 				68666C301B83312D00065D06 /* SZNavigationController.m in Sources */,
+				68666D711B83385700065D06 /* SZDealsViewController.m in Sources */,
+				68666D7D1B83393800065D06 /* UIView+AutoLayout.m in Sources */,
 				68666BF01B83271F00065D06 /* SZAPITool.m in Sources */,
+				68666D771B83388400065D06 /* AwesomeMenu.m in Sources */,
 				68666C091B832AA500065D06 /* MJArgument.m in Sources */,
 				68666BE01B8323C600065D06 /* main.m in Sources */,
 				68666BE11B8323C600065D06 /* SZAppDelegate.m in Sources */,
