@@ -1,0 +1,16 @@
+//
+//  SZTuan-Prefix.pch
+//  SZTuan
+//
+//  Created by sunze on 15/8/18.
+//  Copyright (c) 2015年 sunze. All rights reserved.
+//
+
+#ifndef SZTuan_SZTuan_Prefix_pch
+#define SZTuan_SZTuan_Prefix_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "MJExtension.h"
+
+#endif

@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68666BBC1B8321AB00065D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68666BBA1B8321AB00065D06 /* Main.storyboard */; };
+		68666BBE1B8321AB00065D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68666BBD1B8321AB00065D06 /* Images.xcassets */; };
+		68666BC11B8321AB00065D06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68666BBF1B8321AB00065D06 /* LaunchScreen.xib */; };
+		68666BCD1B8321AB00065D06 /* SZTuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BCC1B8321AB00065D06 /* SZTuanTests.m */; };
+		68666BE01B8323C600065D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BDB1B8323C600065D06 /* main.m */; };
+		68666BE11B8323C600065D06 /* SZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BDD1B8323C600065D06 /* SZAppDelegate.m */; };
+		68666BE21B8323C600065D06 /* SZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BDF1B8323C600065D06 /* SZViewController.m */; };
+		68666BE91B8324FF00065D06 /* DPAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BE51B8324FF00065D06 /* DPAPI.m */; };
+		68666BEA1B8324FF00065D06 /* DPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BE81B8324FF00065D06 /* DPRequest.m */; };
+		68666BF01B83271F00065D06 /* SZAPITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BEF1B83271F00065D06 /* SZAPITool.m */; };
+		68666C091B832AA500065D06 /* MJArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BF31B832AA500065D06 /* MJArgument.m */; };
+		68666C0A1B832AA500065D06 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BF51B832AA500065D06 /* MJConst.m */; };
+		68666C0B1B832AA500065D06 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BF81B832AA500065D06 /* MJFoundation.m */; };
+		68666C0C1B832AA500065D06 /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BFA1B832AA500065D06 /* MJIvar.m */; };
+		68666C0D1B832AA500065D06 /* MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BFC1B832AA500065D06 /* MJMember.m */; };
+		68666C0E1B832AA500065D06 /* MJMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666BFE1B832AA500065D06 /* MJMethod.m */; };
+		68666C0F1B832AA500065D06 /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C001B832AA500065D06 /* MJType.m */; };
+		68666C101B832AA500065D06 /* MJTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C021B832AA500065D06 /* MJTypeEncoding.m */; };
+		68666C111B832AA500065D06 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C041B832AA500065D06 /* NSObject+MJCoding.m */; };
+		68666C121B832AA500065D06 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C061B832AA500065D06 /* NSObject+MJKeyValue.m */; };
+		68666C131B832AA500065D06 /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C081B832AA500065D06 /* NSObject+MJMember.m */; };
+		68666C221B832C9000065D06 /* SZBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C171B832C9000065D06 /* SZBusiness.m */; };
+		68666C231B832C9000065D06 /* SZDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C191B832C9000065D06 /* SZDeal.m */; };
+		68666C241B832C9000065D06 /* SZFindDealsParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C1B1B832C9000065D06 /* SZFindDealsParam.m */; };
+		68666C251B832C9000065D06 /* SZFindDealsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C1D1B832C9000065D06 /* SZFindDealsResult.m */; };
+		68666C261B832C9000065D06 /* SZGetSingleDealParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C1F1B832C9000065D06 /* SZGetSingleDealParam.m */; };
+		68666C271B832C9000065D06 /* SZGetSingleDealResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C211B832C9000065D06 /* SZGetSingleDealResult.m */; };
+		68666C2A1B832CC100065D06 /* SZDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C291B832CC100065D06 /* SZDealTool.m */; };
+		68666C301B83312D00065D06 /* SZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C2F1B83312D00065D06 /* SZNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68666BC71B8321AB00065D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68666BA51B8321AB00065D06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68666BAC1B8321AB00065D06;
+			remoteInfo = SZTuan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68666BAD1B8321AB00065D06 /* SZTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68666BB11B8321AB00065D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68666BBB1B8321AB00065D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68666BBD1B8321AB00065D06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68666BC01B8321AB00065D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		68666BC61B8321AB00065D06 /* SZTuanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZTuanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68666BCB1B8321AB00065D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68666BCC1B8321AB00065D06 /* SZTuanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZTuanTests.m; sourceTree = "<group>"; };
+		68666BDB1B8323C600065D06 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68666BDC1B8323C600065D06 /* SZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZAppDelegate.h; sourceTree = "<group>"; };
+		68666BDD1B8323C600065D06 /* SZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZAppDelegate.m; sourceTree = "<group>"; };
+		68666BDE1B8323C600065D06 /* SZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZViewController.h; sourceTree = "<group>"; };
+		68666BDF1B8323C600065D06 /* SZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZViewController.m; sourceTree = "<group>"; };
+		68666BE41B8324FF00065D06 /* DPAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAPI.h; sourceTree = "<group>"; };
+		68666BE51B8324FF00065D06 /* DPAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAPI.m; sourceTree = "<group>"; };
+		68666BE61B8324FF00065D06 /* DPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPConstants.h; sourceTree = "<group>"; };
+		68666BE71B8324FF00065D06 /* DPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPRequest.h; sourceTree = "<group>"; };
+		68666BE81B8324FF00065D06 /* DPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPRequest.m; sourceTree = "<group>"; };
+		68666BEB1B83255200065D06 /* SZTuan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SZTuan-Prefix.pch"; sourceTree = "<group>"; };
+		68666BEC1B8325E400065D06 /* SZSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSingleton.h; sourceTree = "<group>"; };
+		68666BEE1B83271F00065D06 /* SZAPITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZAPITool.h; sourceTree = "<group>"; };
+		68666BEF1B83271F00065D06 /* SZAPITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZAPITool.m; sourceTree = "<group>"; };
+		68666BF21B832AA500065D06 /* MJArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJArgument.h; sourceTree = "<group>"; };
+		68666BF31B832AA500065D06 /* MJArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJArgument.m; sourceTree = "<group>"; };
+		68666BF41B832AA500065D06 /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
+		68666BF51B832AA500065D06 /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
+		68666BF61B832AA500065D06 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		68666BF71B832AA500065D06 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		68666BF81B832AA500065D06 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		68666BF91B832AA500065D06 /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
+		68666BFA1B832AA500065D06 /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
+		68666BFB1B832AA500065D06 /* MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMember.h; sourceTree = "<group>"; };
+		68666BFC1B832AA500065D06 /* MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMember.m; sourceTree = "<group>"; };
+		68666BFD1B832AA500065D06 /* MJMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMethod.h; sourceTree = "<group>"; };
+		68666BFE1B832AA500065D06 /* MJMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMethod.m; sourceTree = "<group>"; };
+		68666BFF1B832AA500065D06 /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		68666C001B832AA500065D06 /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		68666C011B832AA500065D06 /* MJTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTypeEncoding.h; sourceTree = "<group>"; };
+		68666C021B832AA500065D06 /* MJTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTypeEncoding.m; sourceTree = "<group>"; };
+		68666C031B832AA500065D06 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		68666C041B832AA500065D06 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		68666C051B832AA500065D06 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		68666C061B832AA500065D06 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		68666C071B832AA500065D06 /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
+		68666C081B832AA500065D06 /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
+		68666C161B832C9000065D06 /* SZBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBusiness.h; sourceTree = "<group>"; };
+		68666C171B832C9000065D06 /* SZBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBusiness.m; sourceTree = "<group>"; };
+		68666C181B832C9000065D06 /* SZDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDeal.h; sourceTree = "<group>"; };
+		68666C191B832C9000065D06 /* SZDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDeal.m; sourceTree = "<group>"; };
+		68666C1A1B832C9000065D06 /* SZFindDealsParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFindDealsParam.h; sourceTree = "<group>"; };
+		68666C1B1B832C9000065D06 /* SZFindDealsParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFindDealsParam.m; sourceTree = "<group>"; };
+		68666C1C1B832C9000065D06 /* SZFindDealsResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFindDealsResult.h; sourceTree = "<group>"; };
+		68666C1D1B832C9000065D06 /* SZFindDealsResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFindDealsResult.m; sourceTree = "<group>"; };
+		68666C1E1B832C9000065D06 /* SZGetSingleDealParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGetSingleDealParam.h; sourceTree = "<group>"; };
+		68666C1F1B832C9000065D06 /* SZGetSingleDealParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGetSingleDealParam.m; sourceTree = "<group>"; };
+		68666C201B832C9000065D06 /* SZGetSingleDealResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGetSingleDealResult.h; sourceTree = "<group>"; };
+		68666C211B832C9000065D06 /* SZGetSingleDealResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGetSingleDealResult.m; sourceTree = "<group>"; };
+		68666C281B832CC100065D06 /* SZDealTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDealTool.h; sourceTree = "<group>"; };
+		68666C291B832CC100065D06 /* SZDealTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDealTool.m; sourceTree = "<group>"; };
+		68666C2E1B83312D00065D06 /* SZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SZNavigationController.h; path = ../../../../../../SZNavigationController.h; sourceTree = "<group>"; };
+		68666C2F1B83312D00065D06 /* SZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SZNavigationController.m; path = ../../../../../../SZNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68666BAA1B8321AB00065D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68666BC31B8321AB00065D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68666BA41B8321AB00065D06 = {
+			isa = PBXGroup;
+			children = (
+				68666BAF1B8321AB00065D06 /* SZTuan */,
+				68666BC91B8321AB00065D06 /* SZTuanTests */,
+				68666BAE1B8321AB00065D06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68666BAE1B8321AB00065D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68666BAD1B8321AB00065D06 /* SZTuan.app */,
+				68666BC61B8321AB00065D06 /* SZTuanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68666BAF1B8321AB00065D06 /* SZTuan */ = {
+			isa = PBXGroup;
+			children = (
+				68666BD61B8323C600065D06 /* Classes */,
+				68666BB01B8321AB00065D06 /* Supporting Files */,
+			);
+			path = SZTuan;
+			sourceTree = "<group>";
+		};
+		68666BB01B8321AB00065D06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68666BBD1B8321AB00065D06 /* Images.xcassets */,
+				68666BBF1B8321AB00065D06 /* LaunchScreen.xib */,
+				68666BBA1B8321AB00065D06 /* Main.storyboard */,
+				68666BB11B8321AB00065D06 /* Info.plist */,
+				68666BEB1B83255200065D06 /* SZTuan-Prefix.pch */,
+				68666BEC1B8325E400065D06 /* SZSingleton.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68666BC91B8321AB00065D06 /* SZTuanTests */ = {
+			isa = PBXGroup;
+			children = (
+				68666BCC1B8321AB00065D06 /* SZTuanTests.m */,
+				68666BCA1B8321AB00065D06 /* Supporting Files */,
+			);
+			path = SZTuanTests;
+			sourceTree = "<group>";
+		};
+		68666BCA1B8321AB00065D06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68666BCB1B8321AB00065D06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68666BD61B8323C600065D06 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68666BD71B8323C600065D06 /* Main */,
+				68666BD81B8323C600065D06 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		68666BD71B8323C600065D06 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				68666C151B832C6800065D06 /* Model */,
+				68666C141B832C5100065D06 /* Controller */,
+				68666BED1B83270600065D06 /* Tool */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		68666BD81B8323C600065D06 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				68666BD91B8323C600065D06 /* Category */,
+				68666BDA1B8323C600065D06 /* Lib */,
+				68666BDB1B8323C600065D06 /* main.m */,
+				68666BDC1B8323C600065D06 /* SZAppDelegate.h */,
+				68666BDD1B8323C600065D06 /* SZAppDelegate.m */,
+				68666BDE1B8323C600065D06 /* SZViewController.h */,
+				68666BDF1B8323C600065D06 /* SZViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		68666BD91B8323C600065D06 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		68666BDA1B8323C600065D06 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				68666BF11B832AA500065D06 /* MJExtension */,
+				68666BE31B8324FF00065D06 /* dianpingapi */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		68666BE31B8324FF00065D06 /* dianpingapi */ = {
+			isa = PBXGroup;
+			children = (
+				68666BE41B8324FF00065D06 /* DPAPI.h */,
+				68666BE51B8324FF00065D06 /* DPAPI.m */,
+				68666BE61B8324FF00065D06 /* DPConstants.h */,
+				68666BE71B8324FF00065D06 /* DPRequest.h */,
+				68666BE81B8324FF00065D06 /* DPRequest.m */,
+			);
+			path = dianpingapi;
+			sourceTree = "<group>";
+		};
+		68666BED1B83270600065D06 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				68666BEE1B83271F00065D06 /* SZAPITool.h */,
+				68666BEF1B83271F00065D06 /* SZAPITool.m */,
+				68666C281B832CC100065D06 /* SZDealTool.h */,
+				68666C291B832CC100065D06 /* SZDealTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		68666BF11B832AA500065D06 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				68666BF21B832AA500065D06 /* MJArgument.h */,
+				68666BF31B832AA500065D06 /* MJArgument.m */,
+				68666BF41B832AA500065D06 /* MJConst.h */,
+				68666BF51B832AA500065D06 /* MJConst.m */,
+				68666BF61B832AA500065D06 /* MJExtension.h */,
+				68666BF71B832AA500065D06 /* MJFoundation.h */,
+				68666BF81B832AA500065D06 /* MJFoundation.m */,
+				68666BF91B832AA500065D06 /* MJIvar.h */,
+				68666BFA1B832AA500065D06 /* MJIvar.m */,
+				68666BFB1B832AA500065D06 /* MJMember.h */,
+				68666BFC1B832AA500065D06 /* MJMember.m */,
+				68666BFD1B832AA500065D06 /* MJMethod.h */,
+				68666BFE1B832AA500065D06 /* MJMethod.m */,
+				68666BFF1B832AA500065D06 /* MJType.h */,
+				68666C001B832AA500065D06 /* MJType.m */,
+				68666C011B832AA500065D06 /* MJTypeEncoding.h */,
+				68666C021B832AA500065D06 /* MJTypeEncoding.m */,
+				68666C031B832AA500065D06 /* NSObject+MJCoding.h */,
+				68666C041B832AA500065D06 /* NSObject+MJCoding.m */,
+				68666C051B832AA500065D06 /* NSObject+MJKeyValue.h */,
+				68666C061B832AA500065D06 /* NSObject+MJKeyValue.m */,
+				68666C071B832AA500065D06 /* NSObject+MJMember.h */,
+				68666C081B832AA500065D06 /* NSObject+MJMember.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		68666C141B832C5100065D06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68666C2E1B83312D00065D06 /* SZNavigationController.h */,
+				68666C2F1B83312D00065D06 /* SZNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		68666C151B832C6800065D06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68666C161B832C9000065D06 /* SZBusiness.h */,
+				68666C171B832C9000065D06 /* SZBusiness.m */,
+				68666C181B832C9000065D06 /* SZDeal.h */,
+				68666C191B832C9000065D06 /* SZDeal.m */,
+				68666C1A1B832C9000065D06 /* SZFindDealsParam.h */,
+				68666C1B1B832C9000065D06 /* SZFindDealsParam.m */,
+				68666C1C1B832C9000065D06 /* SZFindDealsResult.h */,
+				68666C1D1B832C9000065D06 /* SZFindDealsResult.m */,
+				68666C1E1B832C9000065D06 /* SZGetSingleDealParam.h */,
+				68666C1F1B832C9000065D06 /* SZGetSingleDealParam.m */,
+				68666C201B832C9000065D06 /* SZGetSingleDealResult.h */,
+				68666C211B832C9000065D06 /* SZGetSingleDealResult.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68666BAC1B8321AB00065D06 /* SZTuan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68666BD01B8321AB00065D06 /* Build configuration list for PBXNativeTarget "SZTuan" */;
+			buildPhases = (
+				68666BA91B8321AB00065D06 /* Sources */,
+				68666BAA1B8321AB00065D06 /* Frameworks */,
+				68666BAB1B8321AB00065D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZTuan;
+			productName = SZTuan;
+			productReference = 68666BAD1B8321AB00065D06 /* SZTuan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68666BC51B8321AB00065D06 /* SZTuanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68666BD31B8321AB00065D06 /* Build configuration list for PBXNativeTarget "SZTuanTests" */;
+			buildPhases = (
+				68666BC21B8321AB00065D06 /* Sources */,
+				68666BC31B8321AB00065D06 /* Frameworks */,
+				68666BC41B8321AB00065D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68666BC81B8321AB00065D06 /* PBXTargetDependency */,
+			);
+			name = SZTuanTests;
+			productName = SZTuanTests;
+			productReference = 68666BC61B8321AB00065D06 /* SZTuanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68666BA51B8321AB00065D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SZ;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = sunze;
+				TargetAttributes = {
+					68666BAC1B8321AB00065D06 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					68666BC51B8321AB00065D06 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 68666BAC1B8321AB00065D06;
+					};
+				};
+			};
+			buildConfigurationList = 68666BA81B8321AB00065D06 /* Build configuration list for PBXProject "SZTuan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68666BA41B8321AB00065D06;
+			productRefGroup = 68666BAE1B8321AB00065D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68666BAC1B8321AB00065D06 /* SZTuan */,
+				68666BC51B8321AB00065D06 /* SZTuanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68666BAB1B8321AB00065D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68666BBC1B8321AB00065D06 /* Main.storyboard in Resources */,
+				68666BC11B8321AB00065D06 /* LaunchScreen.xib in Resources */,
+				68666BBE1B8321AB00065D06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68666BC41B8321AB00065D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68666BA91B8321AB00065D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68666C2A1B832CC100065D06 /* SZDealTool.m in Sources */,
+				68666C121B832AA500065D06 /* NSObject+MJKeyValue.m in Sources */,
+				68666C0C1B832AA500065D06 /* MJIvar.m in Sources */,
+				68666BEA1B8324FF00065D06 /* DPRequest.m in Sources */,
+				68666BE91B8324FF00065D06 /* DPAPI.m in Sources */,
+				68666C0F1B832AA500065D06 /* MJType.m in Sources */,
+				68666C0A1B832AA500065D06 /* MJConst.m in Sources */,
+				68666C0B1B832AA500065D06 /* MJFoundation.m in Sources */,
+				68666C251B832C9000065D06 /* SZFindDealsResult.m in Sources */,
+				68666C0E1B832AA500065D06 /* MJMethod.m in Sources */,
+				68666C231B832C9000065D06 /* SZDeal.m in Sources */,
+				68666C241B832C9000065D06 /* SZFindDealsParam.m in Sources */,
+				68666C131B832AA500065D06 /* NSObject+MJMember.m in Sources */,
+				68666C101B832AA500065D06 /* MJTypeEncoding.m in Sources */,
+				68666C0D1B832AA500065D06 /* MJMember.m in Sources */,
+				68666BE21B8323C600065D06 /* SZViewController.m in Sources */,
+				68666C271B832C9000065D06 /* SZGetSingleDealResult.m in Sources */,
+				68666C221B832C9000065D06 /* SZBusiness.m in Sources */,
+				68666C301B83312D00065D06 /* SZNavigationController.m in Sources */,
+				68666BF01B83271F00065D06 /* SZAPITool.m in Sources */,
+				68666C091B832AA500065D06 /* MJArgument.m in Sources */,
+				68666BE01B8323C600065D06 /* main.m in Sources */,
+				68666BE11B8323C600065D06 /* SZAppDelegate.m in Sources */,
+				68666C111B832AA500065D06 /* NSObject+MJCoding.m in Sources */,
+				68666C261B832C9000065D06 /* SZGetSingleDealParam.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68666BC21B8321AB00065D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68666BCD1B8321AB00065D06 /* SZTuanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68666BC81B8321AB00065D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68666BAC1B8321AB00065D06 /* SZTuan */;
+			targetProxy = 68666BC71B8321AB00065D06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68666BBA1B8321AB00065D06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68666BBB1B8321AB00065D06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68666BBF1B8321AB00065D06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68666BC01B8321AB00065D06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68666BCE1B8321AB00065D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		68666BCF1B8321AB00065D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68666BD11B8321AB00065D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "SZTuan/SZTuan-prefix.pch";
+				INFOPLIST_FILE = SZTuan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68666BD21B8321AB00065D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "SZTuan/SZTuan-prefix.pch";
+				INFOPLIST_FILE = SZTuan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68666BD41B8321AB00065D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SZTuanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZTuan.app/SZTuan";
+			};
+			name = Debug;
+		};
+		68666BD51B8321AB00065D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SZTuanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZTuan.app/SZTuan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68666BA81B8321AB00065D06 /* Build configuration list for PBXProject "SZTuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68666BCE1B8321AB00065D06 /* Debug */,
+				68666BCF1B8321AB00065D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68666BD01B8321AB00065D06 /* Build configuration list for PBXNativeTarget "SZTuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68666BD11B8321AB00065D06 /* Debug */,
+				68666BD21B8321AB00065D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68666BD31B8321AB00065D06 /* Build configuration list for PBXNativeTarget "SZTuanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68666BD41B8321AB00065D06 /* Debug */,
+				68666BD51B8321AB00065D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68666BA51B8321AB00065D06 /* Project object */;
+}
