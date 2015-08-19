@@ -16,14 +16,18 @@
 
 -(void)loadView
 {
-    self.view = [SZDropDownMenu menu];
+    
+    SZDropDownMenu *menu = [SZDropDownMenu menu];
+    menu.items = [SZMetaDataTool sharedSZMetaDataTool].categories;
+    self.view = menu;
+
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
-    self.preferredContentSize = self.view.size;
+    self.preferredContentSize = CGSizeMake(400, 480);
 }
 
 

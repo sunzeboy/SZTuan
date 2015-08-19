@@ -7,6 +7,9 @@
 //
 
 #import "SZDropDownMenu.h"
+#import "SZCategory.h"
+#import "SZDropDownMainCell.h"
+#import "SZDropDownSubCell.h"
 
 @interface SZDropDownMenu ()
 
@@ -22,42 +25,76 @@
     return [[[NSBundle mainBundle] loadNibNamed:@"SZDropDownMenu" owner:nil options:nil] lastObject];
 }
 
+#pragma mark - 公共方法
+- (void)setItems:(NSArray *)items
+{
+    _items = items;
+    
+    // 刷新表格
+    [self.mainTableView reloadData];
+    [self.subTableView reloadData];
+}
+
+
 /**
  *  一个UI控件即将被添加到窗口中就调用
  */
-- (void)willMoveToWindow:(UIWindow *)newWindow
-{
-    self.mainTableView.backgroundColor = [UIColor redColor];
-    self.subTableView.backgroundColor = [UIColor blueColor];
-}
+//- (void)willMoveToWindow:(UIWindow *)newWindow
+//{
+//    self.mainTableView.backgroundColor = [UIColor redColor];
+//    self.subTableView.backgroundColor = [UIColor blueColor];
+//}
 
 #pragma mark - 数据源方法
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     if (tableView == self.mainTableView) {
-        return 10;
+        return self.items.count;
     } else {
-        return 5;
+        int mainRow = [self.mainTableView indexPathForSelectedRow].row;
+        id<SZDropdownMenuItem> item = self.items[mainRow];
+        return [item subtitles].count;
     }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *ID = @"cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
-    }
+//    static NSString *ID = @"cell";
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+//    if (!cell) {
+//        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
+//    }
+//    if (tableView == self.mainTableView) {
+//        cell.textLabel.text = [NSString stringWithFormat:@"main - %d", indexPath.row];
+//    } else {
+//        cell.textLabel.text = [NSString stringWithFormat:@"sub - %d", indexPath.row];
+//    }
+//    return cell;
     if (tableView == self.mainTableView) {
-        cell.textLabel.text = [NSString stringWithFormat:@"main - %d", indexPath.row];
+        SZDropDownMainCell *mainCell = [SZDropDownMainCell cellWithTableView:tableView];
+        mainCell.item = self.items[indexPath.row];
+        return mainCell;
     } else {
-        cell.textLabel.text = [NSString stringWithFormat:@"sub - %d", indexPath.row];
+        SZDropDownSubCell *subCell = [SZDropDownSubCell cellWithTableView:tableView];
+        int mainRow = [self.mainTableView indexPathForSelectedRow].row;
+        id<SZDropdownMenuItem> item = self.items[mainRow];
+        subCell.textLabel.text = [item subtitles][indexPath.row];
+        return subCell;
     }
-    return cell;
+    
+    
 }
 
 #pragma mark - 代理方法
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (tableView == self.mainTableView) {
+        // 刷新右边
+        [self.subTableView reloadData];
+    } else {
+        
+    }
+}
 
 
 

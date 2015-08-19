@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "SZSingleton.h"
-
+@class SZCity;
 @interface SZMetaDataTool : NSObject
 SZSingletonH(SZMetaDataTool)
 
@@ -28,5 +28,8 @@ SZSingletonH(SZMetaDataTool)
  *  所有的排序
  */
 @property (strong, nonatomic, readonly) NSArray *sorts;
+
+
+- (SZCity *)cityWithName:(NSString *)name;
 
 @end

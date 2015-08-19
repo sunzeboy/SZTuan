@@ -9,5 +9,13 @@
 #import "SZRegion.h"
 
 @implementation SZRegion
+- (NSString *)title
+{
+    return self.name;
+}
 
+- (NSArray *)subtitles
+{
+    return self.subregions;
+}
 @end

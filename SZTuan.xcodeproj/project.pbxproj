@@ -62,6 +62,8 @@
 		68666DCF1B8475DC00065D06 /* SZDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DCE1B8475DC00065D06 /* SZDropDownMenu.m */; };
 		68666DD11B8475FF00065D06 /* SZDropDownMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68666DD01B8475FF00065D06 /* SZDropDownMenu.xib */; };
 		68666DD31B84791A00065D06 /* SZRegionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68666DD21B84791A00065D06 /* SZRegionsViewController.xib */; };
+		68666DD61B8496DF00065D06 /* SZDropDownMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DD51B8496DF00065D06 /* SZDropDownMainCell.m */; };
+		68666DD91B849BB100065D06 /* SZDropDownSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DD81B849BB100065D06 /* SZDropDownSubCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,6 +182,10 @@
 		68666DCE1B8475DC00065D06 /* SZDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDropDownMenu.m; sourceTree = "<group>"; };
 		68666DD01B8475FF00065D06 /* SZDropDownMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZDropDownMenu.xib; sourceTree = "<group>"; };
 		68666DD21B84791A00065D06 /* SZRegionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZRegionsViewController.xib; sourceTree = "<group>"; };
+		68666DD41B8496DF00065D06 /* SZDropDownMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDropDownMainCell.h; sourceTree = "<group>"; };
+		68666DD51B8496DF00065D06 /* SZDropDownMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDropDownMainCell.m; sourceTree = "<group>"; };
+		68666DD71B849BB100065D06 /* SZDropDownSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDropDownSubCell.h; sourceTree = "<group>"; };
+		68666DD81B849BB100065D06 /* SZDropDownSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDropDownSubCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -499,6 +505,10 @@
 				68666DCD1B8475DC00065D06 /* SZDropDownMenu.h */,
 				68666DCE1B8475DC00065D06 /* SZDropDownMenu.m */,
 				68666DD01B8475FF00065D06 /* SZDropDownMenu.xib */,
+				68666DD41B8496DF00065D06 /* SZDropDownMainCell.h */,
+				68666DD51B8496DF00065D06 /* SZDropDownMainCell.m */,
+				68666DD71B849BB100065D06 /* SZDropDownSubCell.h */,
+				68666DD81B849BB100065D06 /* SZDropDownSubCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -615,6 +625,7 @@
 				68666D7E1B83393800065D06 /* UIView+Extension.m in Sources */,
 				68666C2A1B832CC100065D06 /* SZDealTool.m in Sources */,
 				68666D781B83388400065D06 /* AwesomeMenuItem.m in Sources */,
+				68666DD91B849BB100065D06 /* SZDropDownSubCell.m in Sources */,
 				68666C121B832AA500065D06 /* NSObject+MJKeyValue.m in Sources */,
 				68666C0C1B832AA500065D06 /* MJIvar.m in Sources */,
 				68666DA31B842C3900065D06 /* SZFindDealsParam.m in Sources */,
@@ -638,6 +649,7 @@
 				68666DB91B8451B700065D06 /* SZDealsTopMenu.m in Sources */,
 				68666DA21B842C3900065D06 /* SZDeal.m in Sources */,
 				68666BE21B8323C600065D06 /* SZViewController.m in Sources */,
+				68666DD61B8496DF00065D06 /* SZDropDownMainCell.m in Sources */,
 				68666D841B841EA500065D06 /* SZNavigationController.m in Sources */,
 				68666D711B83385700065D06 /* SZDealsViewController.m in Sources */,
 				68666D7D1B83393800065D06 /* UIView+AutoLayout.m in Sources */,

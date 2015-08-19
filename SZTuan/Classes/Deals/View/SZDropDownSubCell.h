@@ -1,5 +1,5 @@
 //
-//  SZDropDownMenu.h
+//  SZDropDownSubCell.h
 //  SZTuan
 //
 //  Created by sunze on 15/8/19.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SZDropDownMenu : UIView
-+ (instancetype)menu;
+@interface SZDropDownSubCell : UITableViewCell
+
++ (instancetype)cellWithTableView:(UITableView *)tableView;
+
 @end

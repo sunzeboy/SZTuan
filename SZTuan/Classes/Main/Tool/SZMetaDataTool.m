@@ -61,6 +61,14 @@ SZSingletonM(SZMetaDataTool)
     return _sorts;
 }
 
-
+- (SZCity *)cityWithName:(NSString *)name
+{
+    if (name.length == 0) return nil;
+    
+    for (SZCity *city in self.cities) {
+        if ([city.name isEqualToString:name]) return city;
+    }
+    return nil;
+}
 
 @end

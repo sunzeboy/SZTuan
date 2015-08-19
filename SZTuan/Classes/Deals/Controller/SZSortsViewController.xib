@@ -16,6 +16,7 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="374" y="427"/>
         </scrollView>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

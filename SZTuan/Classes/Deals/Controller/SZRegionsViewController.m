@@ -8,6 +8,7 @@
 
 #import "SZRegionsViewController.h"
 #import "SZDropDownMenu.h"
+#import "SZCity.h"
 @interface SZRegionsViewController ()
 
 @end
@@ -23,6 +24,11 @@
     UIView *topView = [self.view.subviews firstObject];
     
     SZDropDownMenu *menu = [SZDropDownMenu menu];
+#warning 临时的假数据
+    SZMetaDataTool *tool = [SZMetaDataTool sharedSZMetaDataTool];
+    SZCity *city = [tool cityWithName:@"广州"];
+    menu.items = city.regions;
+    
     [self.view addSubview:menu];
     
     [menu autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:topView];
