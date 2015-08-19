@@ -28,19 +28,29 @@
 		68666C111B832AA500065D06 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C041B832AA500065D06 /* NSObject+MJCoding.m */; };
 		68666C121B832AA500065D06 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C061B832AA500065D06 /* NSObject+MJKeyValue.m */; };
 		68666C131B832AA500065D06 /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C081B832AA500065D06 /* NSObject+MJMember.m */; };
-		68666C221B832C9000065D06 /* SZBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C171B832C9000065D06 /* SZBusiness.m */; };
-		68666C231B832C9000065D06 /* SZDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C191B832C9000065D06 /* SZDeal.m */; };
-		68666C241B832C9000065D06 /* SZFindDealsParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C1B1B832C9000065D06 /* SZFindDealsParam.m */; };
-		68666C251B832C9000065D06 /* SZFindDealsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C1D1B832C9000065D06 /* SZFindDealsResult.m */; };
-		68666C261B832C9000065D06 /* SZGetSingleDealParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C1F1B832C9000065D06 /* SZGetSingleDealParam.m */; };
-		68666C271B832C9000065D06 /* SZGetSingleDealResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C211B832C9000065D06 /* SZGetSingleDealResult.m */; };
 		68666C2A1B832CC100065D06 /* SZDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C291B832CC100065D06 /* SZDealTool.m */; };
-		68666C301B83312D00065D06 /* SZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666C2F1B83312D00065D06 /* SZNavigationController.m */; };
 		68666D711B83385700065D06 /* SZDealsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D701B83385700065D06 /* SZDealsViewController.m */; };
 		68666D771B83388400065D06 /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D741B83388400065D06 /* AwesomeMenu.m */; };
 		68666D781B83388400065D06 /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D761B83388400065D06 /* AwesomeMenuItem.m */; };
 		68666D7D1B83393800065D06 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D7A1B83393800065D06 /* UIView+AutoLayout.m */; };
 		68666D7E1B83393800065D06 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D7C1B83393800065D06 /* UIView+Extension.m */; };
+		68666D841B841EA500065D06 /* SZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D831B841EA500065D06 /* SZNavigationController.m */; };
+		68666D871B8429F400065D06 /* SZMetaDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D861B8429F400065D06 /* SZMetaDataTool.m */; };
+		68666D8D1B842A6300065D06 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68666D891B842A6300065D06 /* categories.plist */; };
+		68666D8E1B842A6300065D06 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68666D8A1B842A6300065D06 /* cities.plist */; };
+		68666D8F1B842A6300065D06 /* cityGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68666D8B1B842A6300065D06 /* cityGroups.plist */; };
+		68666D901B842A6300065D06 /* sorts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68666D8C1B842A6300065D06 /* sorts.plist */; };
+		68666DA11B842C3900065D06 /* SZBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D931B842C3900065D06 /* SZBusiness.m */; };
+		68666DA21B842C3900065D06 /* SZDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D951B842C3900065D06 /* SZDeal.m */; };
+		68666DA31B842C3900065D06 /* SZFindDealsParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D981B842C3900065D06 /* SZFindDealsParam.m */; };
+		68666DA41B842C3900065D06 /* SZFindDealsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D9A1B842C3900065D06 /* SZFindDealsResult.m */; };
+		68666DA51B842C3900065D06 /* SZGetSingleDealParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D9D1B842C3900065D06 /* SZGetSingleDealParam.m */; };
+		68666DA61B842C3900065D06 /* SZGetSingleDealResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666D9F1B842C3900065D06 /* SZGetSingleDealResult.m */; };
+		68666DB11B842C5400065D06 /* SZCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DA81B842C5400065D06 /* SZCategory.m */; };
+		68666DB21B842C5400065D06 /* SZCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DAA1B842C5400065D06 /* SZCity.m */; };
+		68666DB31B842C5400065D06 /* SZCityGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DAC1B842C5400065D06 /* SZCityGroup.m */; };
+		68666DB41B842C5400065D06 /* SZRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DAE1B842C5400065D06 /* SZRegion.m */; };
+		68666DB51B842C5400065D06 /* SZSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DB01B842C5400065D06 /* SZSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,22 +109,8 @@
 		68666C061B832AA500065D06 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
 		68666C071B832AA500065D06 /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
 		68666C081B832AA500065D06 /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
-		68666C161B832C9000065D06 /* SZBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBusiness.h; sourceTree = "<group>"; };
-		68666C171B832C9000065D06 /* SZBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBusiness.m; sourceTree = "<group>"; };
-		68666C181B832C9000065D06 /* SZDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDeal.h; sourceTree = "<group>"; };
-		68666C191B832C9000065D06 /* SZDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDeal.m; sourceTree = "<group>"; };
-		68666C1A1B832C9000065D06 /* SZFindDealsParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFindDealsParam.h; sourceTree = "<group>"; };
-		68666C1B1B832C9000065D06 /* SZFindDealsParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFindDealsParam.m; sourceTree = "<group>"; };
-		68666C1C1B832C9000065D06 /* SZFindDealsResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFindDealsResult.h; sourceTree = "<group>"; };
-		68666C1D1B832C9000065D06 /* SZFindDealsResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFindDealsResult.m; sourceTree = "<group>"; };
-		68666C1E1B832C9000065D06 /* SZGetSingleDealParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGetSingleDealParam.h; sourceTree = "<group>"; };
-		68666C1F1B832C9000065D06 /* SZGetSingleDealParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGetSingleDealParam.m; sourceTree = "<group>"; };
-		68666C201B832C9000065D06 /* SZGetSingleDealResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGetSingleDealResult.h; sourceTree = "<group>"; };
-		68666C211B832C9000065D06 /* SZGetSingleDealResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGetSingleDealResult.m; sourceTree = "<group>"; };
 		68666C281B832CC100065D06 /* SZDealTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDealTool.h; sourceTree = "<group>"; };
 		68666C291B832CC100065D06 /* SZDealTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDealTool.m; sourceTree = "<group>"; };
-		68666C2E1B83312D00065D06 /* SZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SZNavigationController.h; path = ../../../../../../SZNavigationController.h; sourceTree = "<group>"; };
-		68666C2F1B83312D00065D06 /* SZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SZNavigationController.m; path = ../../../../../../SZNavigationController.m; sourceTree = "<group>"; };
 		68666D6F1B83385700065D06 /* SZDealsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDealsViewController.h; sourceTree = "<group>"; };
 		68666D701B83385700065D06 /* SZDealsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDealsViewController.m; sourceTree = "<group>"; };
 		68666D731B83388400065D06 /* AwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenu.h; sourceTree = "<group>"; };
@@ -125,6 +121,36 @@
 		68666D7A1B83393800065D06 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 		68666D7B1B83393800065D06 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		68666D7C1B83393800065D06 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		68666D821B841EA500065D06 /* SZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZNavigationController.h; sourceTree = "<group>"; };
+		68666D831B841EA500065D06 /* SZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZNavigationController.m; sourceTree = "<group>"; };
+		68666D851B8429F400065D06 /* SZMetaDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZMetaDataTool.h; sourceTree = "<group>"; };
+		68666D861B8429F400065D06 /* SZMetaDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZMetaDataTool.m; sourceTree = "<group>"; };
+		68666D891B842A6300065D06 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		68666D8A1B842A6300065D06 /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		68666D8B1B842A6300065D06 /* cityGroups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityGroups.plist; sourceTree = "<group>"; };
+		68666D8C1B842A6300065D06 /* sorts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sorts.plist; sourceTree = "<group>"; };
+		68666D921B842C3900065D06 /* SZBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBusiness.h; sourceTree = "<group>"; };
+		68666D931B842C3900065D06 /* SZBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBusiness.m; sourceTree = "<group>"; };
+		68666D941B842C3900065D06 /* SZDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDeal.h; sourceTree = "<group>"; };
+		68666D951B842C3900065D06 /* SZDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDeal.m; sourceTree = "<group>"; };
+		68666D971B842C3900065D06 /* SZFindDealsParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFindDealsParam.h; sourceTree = "<group>"; };
+		68666D981B842C3900065D06 /* SZFindDealsParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFindDealsParam.m; sourceTree = "<group>"; };
+		68666D991B842C3900065D06 /* SZFindDealsResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFindDealsResult.h; sourceTree = "<group>"; };
+		68666D9A1B842C3900065D06 /* SZFindDealsResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFindDealsResult.m; sourceTree = "<group>"; };
+		68666D9C1B842C3900065D06 /* SZGetSingleDealParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGetSingleDealParam.h; sourceTree = "<group>"; };
+		68666D9D1B842C3900065D06 /* SZGetSingleDealParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGetSingleDealParam.m; sourceTree = "<group>"; };
+		68666D9E1B842C3900065D06 /* SZGetSingleDealResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGetSingleDealResult.h; sourceTree = "<group>"; };
+		68666D9F1B842C3900065D06 /* SZGetSingleDealResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGetSingleDealResult.m; sourceTree = "<group>"; };
+		68666DA71B842C5400065D06 /* SZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCategory.h; sourceTree = "<group>"; };
+		68666DA81B842C5400065D06 /* SZCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCategory.m; sourceTree = "<group>"; };
+		68666DA91B842C5400065D06 /* SZCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCity.h; sourceTree = "<group>"; };
+		68666DAA1B842C5400065D06 /* SZCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCity.m; sourceTree = "<group>"; };
+		68666DAB1B842C5400065D06 /* SZCityGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCityGroup.h; sourceTree = "<group>"; };
+		68666DAC1B842C5400065D06 /* SZCityGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCityGroup.m; sourceTree = "<group>"; };
+		68666DAD1B842C5400065D06 /* SZRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZRegion.h; sourceTree = "<group>"; };
+		68666DAE1B842C5400065D06 /* SZRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZRegion.m; sourceTree = "<group>"; };
+		68666DAF1B842C5400065D06 /* SZSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZSort.h; sourceTree = "<group>"; };
+		68666DB01B842C5400065D06 /* SZSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +201,7 @@
 		68666BB01B8321AB00065D06 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68666D881B842A6300065D06 /* JSON */,
 				68666BBD1B8321AB00065D06 /* Images.xcassets */,
 				68666BBF1B8321AB00065D06 /* LaunchScreen.xib */,
 				68666BBA1B8321AB00065D06 /* Main.storyboard */,
@@ -215,8 +242,8 @@
 		68666BD71B8323C600065D06 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				68666D811B841E2100065D06 /* Controller */,
 				68666C151B832C6800065D06 /* Model */,
-				68666C141B832C5100065D06 /* Controller */,
 				68666BED1B83270600065D06 /* Tool */,
 			);
 			path = Main;
@@ -276,6 +303,8 @@
 				68666BEF1B83271F00065D06 /* SZAPITool.m */,
 				68666C281B832CC100065D06 /* SZDealTool.h */,
 				68666C291B832CC100065D06 /* SZDealTool.m */,
+				68666D851B8429F400065D06 /* SZMetaDataTool.h */,
+				68666D861B8429F400065D06 /* SZMetaDataTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -310,30 +339,13 @@
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
-		68666C141B832C5100065D06 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				68666C2E1B83312D00065D06 /* SZNavigationController.h */,
-				68666C2F1B83312D00065D06 /* SZNavigationController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		68666C151B832C6800065D06 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				68666C161B832C9000065D06 /* SZBusiness.h */,
-				68666C171B832C9000065D06 /* SZBusiness.m */,
-				68666C181B832C9000065D06 /* SZDeal.h */,
-				68666C191B832C9000065D06 /* SZDeal.m */,
-				68666C1A1B832C9000065D06 /* SZFindDealsParam.h */,
-				68666C1B1B832C9000065D06 /* SZFindDealsParam.m */,
-				68666C1C1B832C9000065D06 /* SZFindDealsResult.h */,
-				68666C1D1B832C9000065D06 /* SZFindDealsResult.m */,
-				68666C1E1B832C9000065D06 /* SZGetSingleDealParam.h */,
-				68666C1F1B832C9000065D06 /* SZGetSingleDealParam.m */,
-				68666C201B832C9000065D06 /* SZGetSingleDealResult.h */,
-				68666C211B832C9000065D06 /* SZGetSingleDealResult.m */,
+				68666D911B842C3900065D06 /* Deal */,
+				68666D961B842C3900065D06 /* FindDeals */,
+				68666D9B1B842C3900065D06 /* GetSingleDeal */,
+				68666DA01B842C3900065D06 /* MetaData */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -364,6 +376,76 @@
 				68666D761B83388400065D06 /* AwesomeMenuItem.m */,
 			);
 			path = AwesomeMenu;
+			sourceTree = "<group>";
+		};
+		68666D811B841E2100065D06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68666D821B841EA500065D06 /* SZNavigationController.h */,
+				68666D831B841EA500065D06 /* SZNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		68666D881B842A6300065D06 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				68666D891B842A6300065D06 /* categories.plist */,
+				68666D8A1B842A6300065D06 /* cities.plist */,
+				68666D8B1B842A6300065D06 /* cityGroups.plist */,
+				68666D8C1B842A6300065D06 /* sorts.plist */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		68666D911B842C3900065D06 /* Deal */ = {
+			isa = PBXGroup;
+			children = (
+				68666D921B842C3900065D06 /* SZBusiness.h */,
+				68666D931B842C3900065D06 /* SZBusiness.m */,
+				68666D941B842C3900065D06 /* SZDeal.h */,
+				68666D951B842C3900065D06 /* SZDeal.m */,
+			);
+			path = Deal;
+			sourceTree = "<group>";
+		};
+		68666D961B842C3900065D06 /* FindDeals */ = {
+			isa = PBXGroup;
+			children = (
+				68666D971B842C3900065D06 /* SZFindDealsParam.h */,
+				68666D981B842C3900065D06 /* SZFindDealsParam.m */,
+				68666D991B842C3900065D06 /* SZFindDealsResult.h */,
+				68666D9A1B842C3900065D06 /* SZFindDealsResult.m */,
+			);
+			path = FindDeals;
+			sourceTree = "<group>";
+		};
+		68666D9B1B842C3900065D06 /* GetSingleDeal */ = {
+			isa = PBXGroup;
+			children = (
+				68666D9C1B842C3900065D06 /* SZGetSingleDealParam.h */,
+				68666D9D1B842C3900065D06 /* SZGetSingleDealParam.m */,
+				68666D9E1B842C3900065D06 /* SZGetSingleDealResult.h */,
+				68666D9F1B842C3900065D06 /* SZGetSingleDealResult.m */,
+			);
+			path = GetSingleDeal;
+			sourceTree = "<group>";
+		};
+		68666DA01B842C3900065D06 /* MetaData */ = {
+			isa = PBXGroup;
+			children = (
+				68666DA71B842C5400065D06 /* SZCategory.h */,
+				68666DA81B842C5400065D06 /* SZCategory.m */,
+				68666DA91B842C5400065D06 /* SZCity.h */,
+				68666DAA1B842C5400065D06 /* SZCity.m */,
+				68666DAB1B842C5400065D06 /* SZCityGroup.h */,
+				68666DAC1B842C5400065D06 /* SZCityGroup.m */,
+				68666DAD1B842C5400065D06 /* SZRegion.h */,
+				68666DAE1B842C5400065D06 /* SZRegion.m */,
+				68666DAF1B842C5400065D06 /* SZSort.h */,
+				68666DB01B842C5400065D06 /* SZSort.m */,
+			);
+			path = MetaData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,9 +529,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68666D8D1B842A6300065D06 /* categories.plist in Resources */,
 				68666BBC1B8321AB00065D06 /* Main.storyboard in Resources */,
+				68666D901B842A6300065D06 /* sorts.plist in Resources */,
 				68666BC11B8321AB00065D06 /* LaunchScreen.xib in Resources */,
+				68666D8E1B842A6300065D06 /* cities.plist in Resources */,
 				68666BBE1B8321AB00065D06 /* Images.xcassets in Resources */,
+				68666D8F1B842A6300065D06 /* cityGroups.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,31 +558,37 @@
 				68666D781B83388400065D06 /* AwesomeMenuItem.m in Sources */,
 				68666C121B832AA500065D06 /* NSObject+MJKeyValue.m in Sources */,
 				68666C0C1B832AA500065D06 /* MJIvar.m in Sources */,
+				68666DA31B842C3900065D06 /* SZFindDealsParam.m in Sources */,
 				68666BEA1B8324FF00065D06 /* DPRequest.m in Sources */,
 				68666BE91B8324FF00065D06 /* DPAPI.m in Sources */,
 				68666C0F1B832AA500065D06 /* MJType.m in Sources */,
 				68666C0A1B832AA500065D06 /* MJConst.m in Sources */,
 				68666C0B1B832AA500065D06 /* MJFoundation.m in Sources */,
-				68666C251B832C9000065D06 /* SZFindDealsResult.m in Sources */,
+				68666DA51B842C3900065D06 /* SZGetSingleDealParam.m in Sources */,
+				68666DB51B842C5400065D06 /* SZSort.m in Sources */,
+				68666DA41B842C3900065D06 /* SZFindDealsResult.m in Sources */,
 				68666C0E1B832AA500065D06 /* MJMethod.m in Sources */,
-				68666C231B832C9000065D06 /* SZDeal.m in Sources */,
-				68666C241B832C9000065D06 /* SZFindDealsParam.m in Sources */,
 				68666C131B832AA500065D06 /* NSObject+MJMember.m in Sources */,
+				68666DB41B842C5400065D06 /* SZRegion.m in Sources */,
+				68666DB31B842C5400065D06 /* SZCityGroup.m in Sources */,
+				68666DB21B842C5400065D06 /* SZCity.m in Sources */,
 				68666C101B832AA500065D06 /* MJTypeEncoding.m in Sources */,
 				68666C0D1B832AA500065D06 /* MJMember.m in Sources */,
+				68666DA11B842C3900065D06 /* SZBusiness.m in Sources */,
+				68666DA21B842C3900065D06 /* SZDeal.m in Sources */,
 				68666BE21B8323C600065D06 /* SZViewController.m in Sources */,
-				68666C271B832C9000065D06 /* SZGetSingleDealResult.m in Sources */,
-				68666C221B832C9000065D06 /* SZBusiness.m in Sources */,
-				68666C301B83312D00065D06 /* SZNavigationController.m in Sources */,
+				68666D841B841EA500065D06 /* SZNavigationController.m in Sources */,
 				68666D711B83385700065D06 /* SZDealsViewController.m in Sources */,
 				68666D7D1B83393800065D06 /* UIView+AutoLayout.m in Sources */,
 				68666BF01B83271F00065D06 /* SZAPITool.m in Sources */,
+				68666D871B8429F400065D06 /* SZMetaDataTool.m in Sources */,
+				68666DA61B842C3900065D06 /* SZGetSingleDealResult.m in Sources */,
+				68666DB11B842C5400065D06 /* SZCategory.m in Sources */,
 				68666D771B83388400065D06 /* AwesomeMenu.m in Sources */,
 				68666C091B832AA500065D06 /* MJArgument.m in Sources */,
 				68666BE01B8323C600065D06 /* main.m in Sources */,
 				68666BE11B8323C600065D06 /* SZAppDelegate.m in Sources */,
 				68666C111B832AA500065D06 /* NSObject+MJCoding.m in Sources */,
-				68666C261B832C9000065D06 /* SZGetSingleDealParam.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,6 +787,7 @@
 				68666BD21B8321AB00065D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68666BD31B8321AB00065D06 /* Build configuration list for PBXNativeTarget "SZTuanTests" */ = {
 			isa = XCConfigurationList;
@@ -703,6 +796,7 @@
 				68666BD51B8321AB00065D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
