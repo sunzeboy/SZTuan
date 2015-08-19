@@ -51,6 +51,17 @@
 		68666DB31B842C5400065D06 /* SZCityGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DAC1B842C5400065D06 /* SZCityGroup.m */; };
 		68666DB41B842C5400065D06 /* SZRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DAE1B842C5400065D06 /* SZRegion.m */; };
 		68666DB51B842C5400065D06 /* SZSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DB01B842C5400065D06 /* SZSort.m */; };
+		68666DB91B8451B700065D06 /* SZDealsTopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DB81B8451B700065D06 /* SZDealsTopMenu.m */; };
+		68666DBB1B8451DB00065D06 /* SZDealsTopMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68666DBA1B8451DB00065D06 /* SZDealsTopMenu.xib */; };
+		68666DBE1B8458DD00065D06 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DBD1B8458DD00065D06 /* UIBarButtonItem+Extension.m */; };
+		68666DC61B846B1900065D06 /* SZCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DC01B846B1900065D06 /* SZCategoriesViewController.m */; };
+		68666DC71B846B1900065D06 /* SZRegionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DC21B846B1900065D06 /* SZRegionsViewController.m */; };
+		68666DC81B846B1900065D06 /* SZSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DC41B846B1900065D06 /* SZSortsViewController.m */; };
+		68666DC91B846B1900065D06 /* SZSortsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68666DC51B846B1900065D06 /* SZSortsViewController.xib */; };
+		68666DCC1B846E3000065D06 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DCB1B846E3000065D06 /* UIButton+Extension.m */; };
+		68666DCF1B8475DC00065D06 /* SZDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 68666DCE1B8475DC00065D06 /* SZDropDownMenu.m */; };
+		68666DD11B8475FF00065D06 /* SZDropDownMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68666DD01B8475FF00065D06 /* SZDropDownMenu.xib */; };
+		68666DD31B84791A00065D06 /* SZRegionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68666DD21B84791A00065D06 /* SZRegionsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +162,24 @@
 		68666DAE1B842C5400065D06 /* SZRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZRegion.m; sourceTree = "<group>"; };
 		68666DAF1B842C5400065D06 /* SZSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZSort.h; sourceTree = "<group>"; };
 		68666DB01B842C5400065D06 /* SZSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZSort.m; sourceTree = "<group>"; };
+		68666DB71B8451B700065D06 /* SZDealsTopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDealsTopMenu.h; sourceTree = "<group>"; };
+		68666DB81B8451B700065D06 /* SZDealsTopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDealsTopMenu.m; sourceTree = "<group>"; };
+		68666DBA1B8451DB00065D06 /* SZDealsTopMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZDealsTopMenu.xib; sourceTree = "<group>"; };
+		68666DBC1B8458DD00065D06 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		68666DBD1B8458DD00065D06 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		68666DBF1B846B1900065D06 /* SZCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCategoriesViewController.h; sourceTree = "<group>"; };
+		68666DC01B846B1900065D06 /* SZCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCategoriesViewController.m; sourceTree = "<group>"; };
+		68666DC11B846B1900065D06 /* SZRegionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZRegionsViewController.h; sourceTree = "<group>"; };
+		68666DC21B846B1900065D06 /* SZRegionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZRegionsViewController.m; sourceTree = "<group>"; };
+		68666DC31B846B1900065D06 /* SZSortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZSortsViewController.h; sourceTree = "<group>"; };
+		68666DC41B846B1900065D06 /* SZSortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZSortsViewController.m; sourceTree = "<group>"; };
+		68666DC51B846B1900065D06 /* SZSortsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZSortsViewController.xib; sourceTree = "<group>"; };
+		68666DCA1B846E3000065D06 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		68666DCB1B846E3000065D06 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		68666DCD1B8475DC00065D06 /* SZDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDropDownMenu.h; sourceTree = "<group>"; };
+		68666DCE1B8475DC00065D06 /* SZDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDropDownMenu.m; sourceTree = "<group>"; };
+		68666DD01B8475FF00065D06 /* SZDropDownMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZDropDownMenu.xib; sourceTree = "<group>"; };
+		68666DD21B84791A00065D06 /* SZRegionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZRegionsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +295,10 @@
 		68666BD91B8323C600065D06 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				68666DCA1B846E3000065D06 /* UIButton+Extension.h */,
+				68666DCB1B846E3000065D06 /* UIButton+Extension.m */,
+				68666DBC1B8458DD00065D06 /* UIBarButtonItem+Extension.h */,
+				68666DBD1B8458DD00065D06 /* UIBarButtonItem+Extension.m */,
 				68666D791B83393800065D06 /* UIView+AutoLayout.h */,
 				68666D7A1B83393800065D06 /* UIView+AutoLayout.m */,
 				68666D7B1B83393800065D06 /* UIView+Extension.h */,
@@ -353,6 +386,7 @@
 		68666D6D1B83380200065D06 /* Deals */ = {
 			isa = PBXGroup;
 			children = (
+				68666DB61B84519100065D06 /* View */,
 				68666D6E1B83382300065D06 /* Controller */,
 			);
 			path = Deals;
@@ -361,6 +395,14 @@
 		68666D6E1B83382300065D06 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				68666DBF1B846B1900065D06 /* SZCategoriesViewController.h */,
+				68666DC01B846B1900065D06 /* SZCategoriesViewController.m */,
+				68666DC11B846B1900065D06 /* SZRegionsViewController.h */,
+				68666DC21B846B1900065D06 /* SZRegionsViewController.m */,
+				68666DD21B84791A00065D06 /* SZRegionsViewController.xib */,
+				68666DC31B846B1900065D06 /* SZSortsViewController.h */,
+				68666DC41B846B1900065D06 /* SZSortsViewController.m */,
+				68666DC51B846B1900065D06 /* SZSortsViewController.xib */,
 				68666D6F1B83385700065D06 /* SZDealsViewController.h */,
 				68666D701B83385700065D06 /* SZDealsViewController.m */,
 			);
@@ -448,6 +490,19 @@
 			path = MetaData;
 			sourceTree = "<group>";
 		};
+		68666DB61B84519100065D06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68666DB71B8451B700065D06 /* SZDealsTopMenu.h */,
+				68666DB81B8451B700065D06 /* SZDealsTopMenu.m */,
+				68666DBA1B8451DB00065D06 /* SZDealsTopMenu.xib */,
+				68666DCD1B8475DC00065D06 /* SZDropDownMenu.h */,
+				68666DCE1B8475DC00065D06 /* SZDropDownMenu.m */,
+				68666DD01B8475FF00065D06 /* SZDropDownMenu.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -530,10 +585,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				68666D8D1B842A6300065D06 /* categories.plist in Resources */,
+				68666DBB1B8451DB00065D06 /* SZDealsTopMenu.xib in Resources */,
 				68666BBC1B8321AB00065D06 /* Main.storyboard in Resources */,
+				68666DC91B846B1900065D06 /* SZSortsViewController.xib in Resources */,
 				68666D901B842A6300065D06 /* sorts.plist in Resources */,
 				68666BC11B8321AB00065D06 /* LaunchScreen.xib in Resources */,
+				68666DD11B8475FF00065D06 /* SZDropDownMenu.xib in Resources */,
 				68666D8E1B842A6300065D06 /* cities.plist in Resources */,
+				68666DD31B84791A00065D06 /* SZRegionsViewController.xib in Resources */,
 				68666BBE1B8321AB00065D06 /* Images.xcassets in Resources */,
 				68666D8F1B842A6300065D06 /* cityGroups.plist in Resources */,
 			);
@@ -560,6 +619,7 @@
 				68666C0C1B832AA500065D06 /* MJIvar.m in Sources */,
 				68666DA31B842C3900065D06 /* SZFindDealsParam.m in Sources */,
 				68666BEA1B8324FF00065D06 /* DPRequest.m in Sources */,
+				68666DC71B846B1900065D06 /* SZRegionsViewController.m in Sources */,
 				68666BE91B8324FF00065D06 /* DPAPI.m in Sources */,
 				68666C0F1B832AA500065D06 /* MJType.m in Sources */,
 				68666C0A1B832AA500065D06 /* MJConst.m in Sources */,
@@ -575,16 +635,22 @@
 				68666C101B832AA500065D06 /* MJTypeEncoding.m in Sources */,
 				68666C0D1B832AA500065D06 /* MJMember.m in Sources */,
 				68666DA11B842C3900065D06 /* SZBusiness.m in Sources */,
+				68666DB91B8451B700065D06 /* SZDealsTopMenu.m in Sources */,
 				68666DA21B842C3900065D06 /* SZDeal.m in Sources */,
 				68666BE21B8323C600065D06 /* SZViewController.m in Sources */,
 				68666D841B841EA500065D06 /* SZNavigationController.m in Sources */,
 				68666D711B83385700065D06 /* SZDealsViewController.m in Sources */,
 				68666D7D1B83393800065D06 /* UIView+AutoLayout.m in Sources */,
 				68666BF01B83271F00065D06 /* SZAPITool.m in Sources */,
+				68666DCF1B8475DC00065D06 /* SZDropDownMenu.m in Sources */,
+				68666DC61B846B1900065D06 /* SZCategoriesViewController.m in Sources */,
 				68666D871B8429F400065D06 /* SZMetaDataTool.m in Sources */,
+				68666DBE1B8458DD00065D06 /* UIBarButtonItem+Extension.m in Sources */,
 				68666DA61B842C3900065D06 /* SZGetSingleDealResult.m in Sources */,
 				68666DB11B842C5400065D06 /* SZCategory.m in Sources */,
 				68666D771B83388400065D06 /* AwesomeMenu.m in Sources */,
+				68666DC81B846B1900065D06 /* SZSortsViewController.m in Sources */,
+				68666DCC1B846E3000065D06 /* UIButton+Extension.m in Sources */,
 				68666C091B832AA500065D06 /* MJArgument.m in Sources */,
 				68666BE01B8323C600065D06 /* main.m in Sources */,
 				68666BE11B8323C600065D06 /* SZAppDelegate.m in Sources */,
